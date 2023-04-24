@@ -6,6 +6,7 @@ To disconnet all users from a database in order to drop it :
     FROM pg_stat_activity
     WHERE pg_stat_activity.datname = 'database_name';
 To connect to a database: \c database_name
+To show tables in the database: \dt
 */
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
